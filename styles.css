@@ -1,0 +1,47 @@
+body {
+  min-width: 250px;
+}
+ul {
+  margin: 0px;
+  margin-top: 1em;
+  list-style: none;
+  height: 75vh;
+  width: 75vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+li {
+  height: 2em;
+  width: 2em;
+  border: 1px solid white;
+}
+.box {
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Safari prior 9.0 */
+  transform: rotate(45deg);
+}
+.change-number {
+  width: 4em;
+}
+.error-msg {
+  width: 5em;
+  height: 4em;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+  color: red;
+  text-align: center;
+  margin-top: 1em;
+}
+.black {
+  background-color: black;
+}
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
